@@ -148,8 +148,8 @@ User Function Numeros()
     cResposta   := StrZero(nNum1, nTamStrg, nQtdDecim)
 
     //--------- CONVERTER NÚMERO EM TEXTO USANDO MÁSCARA ---------//
-    nNum1   := 10781934.611781
-    cResposta   := "Um dia terei um patrimônio maior que R$" + Transform(nNum1, "@E 999,999,999,99" + "!. Eu acredito e sempre acreditei que teria muito sucesso")
+    nNum1   := 1000781934.611781
+    cResposta   := "Um dia terei um patrimonio maior que R$" + Transform(nNum1, "@E 999,999,999,99" + "!. Eu acredito e sempre acreditei que teria muito sucesso")
 
 RETURN
 
